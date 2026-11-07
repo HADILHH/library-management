@@ -1,5 +1,5 @@
 import json
-
+from models import Book, Member
 def load(f):
     file = open(f, "r")
     data = json.load(file)
